@@ -16,6 +16,6 @@ end
 
 s = [1, 2, 3]
 t = [2, 5, 7]
-a = [s, t, ]
+a = [s, t, 8, 19]
 
-using_flatten([])
+using_flatten(a)
