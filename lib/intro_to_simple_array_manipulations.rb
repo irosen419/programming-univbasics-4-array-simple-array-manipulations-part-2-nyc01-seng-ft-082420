@@ -14,11 +14,4 @@ end
 
 def using_flatten(array)
   array.flatten
-  p array
 end
-
-s = [1, 2, 3]
-t = [2, 5, 7]
-a = [s, t, 8, 19]
-
-using_flatten(a)
