@@ -1,3 +1,5 @@
+require 'pry'
+
 def using_concat(array1, array2)
   array1.concat(array2)
 end
@@ -11,7 +13,8 @@ def using_uniq(array)
 end
 
 def using_flatten(array)
-  p array.flatten
+  array.flatten
+  binding.pry
 end
 
 s = [1, 2, 3]
