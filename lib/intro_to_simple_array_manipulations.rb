@@ -13,8 +13,8 @@ def using_uniq(array)
 end
 
 def using_flatten(array)
-  array.flatten
   binding.pry
+  array.flatten
 end
 
 s = [1, 2, 3]
