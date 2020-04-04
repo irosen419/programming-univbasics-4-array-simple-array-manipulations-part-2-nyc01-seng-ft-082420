@@ -13,3 +13,7 @@ end
 def using_flatten(array)
   p array.flatten
 end
+
+
+
+using_flatten([])
