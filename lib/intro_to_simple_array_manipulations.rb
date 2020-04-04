@@ -13,9 +13,10 @@ def using_uniq(array)
 end
 
 def using_flatten(array)
-  binding.pry
   array.flatten
 end
+
+binding.pry
 
 s = [1, 2, 3]
 t = [2, 5, 7]
