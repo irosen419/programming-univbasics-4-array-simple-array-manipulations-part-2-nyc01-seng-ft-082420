@@ -17,8 +17,6 @@ def using_flatten(array)
   p array
 end
 
-binding.pry
-
 s = [1, 2, 3]
 t = [2, 5, 7]
 a = [s, t, 8, 19]
