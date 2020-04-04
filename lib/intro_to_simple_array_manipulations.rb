@@ -14,6 +14,8 @@ def using_flatten(array)
   p array.flatten
 end
 
-
+s = [1, 2, 3]
+t = [2, 5, 7]
+a = [s, t, ]
 
 using_flatten([])
